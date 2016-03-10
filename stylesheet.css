@@ -65,7 +65,9 @@ header {
 	margin-left: 160px;
 	margin-right: 40px;
 }
-
+#siteTitle:hover {
+	cursor: default;
+}
 #logo {
 	width: 55px;
 	height: 55px;
@@ -83,11 +85,12 @@ header {
 }
 
 #topNav ul {	
-	list-style: none;
 	display: flex;
 	font: 14px arial;
 }
-
+ul {
+	list-style: none;
+}
 #topNav li {
 	margin-left:20px;
 }
@@ -99,7 +102,61 @@ header {
 #topNav a:hover{
 	text-decoration: underline;
 }
+section {
+	margin: 0;
+	height: 170px;
+	background-color: #29BDCA;
+	font-family: arial;	
+	cursor: default;
+}
+
+#path {
+	margin: 0;
+	height: 20%;
+	background-color: #2095A0;
+	display: flex;
+	align-content: center;
+	font-size: 12px;
+}
 
 a {
 	text-decoration: none;
+}
+
+#path ul {
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	margin-left: 160px;
+}
+
+#path a {
+	color: white;
+}
+
+#path li {
+	color: #29BDCA;
+}
+
+#path li:nth-of-type(n+2){
+	margin-left: 10px;
+}
+
+#portfolio {
+	height: 80%;
+	margin-left: 160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#portfolio div {
+	font-size: 32px;
+	font-weight: normal;
+	color: white;	
+}
+
+#portfolio span {
+	color: #ACDDCA;
 }
