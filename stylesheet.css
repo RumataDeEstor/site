@@ -1,3 +1,104 @@
 body {
-	background-color: red;
+	width: 100%;
+	margin: 0;
+}
+
+#contacts {
+	background-color: #F2F2F2;
+	height: 32px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font: 12px arial;
+}
+
+header {
+	height: 180px;
+	width: 100%;
+	display: flex;
+	align-items:center;		
+}
+
+.topBtn {
+	height: 32px;
+	width: 32px;
+	background-color: #E5E5E5;
+	margin: 0 1px;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	color: #808080;	
+}
+
+.topBtn:hover {
+	background-color: #29BDCA;
+}
+
+#mail {
+	text-decoration: none;
+	color: #29BDCA;
+}
+
+#mail:hover {
+	color: #2095A0; 
+}
+
+.topBtn:last-of-type{
+	margin-right: 160px;
+}
+
+#telnumb, #mail {
+	margin-right: 30px;
+}
+
+#telnumb {
+	color: #808080;
+}
+
+#siteTitle {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 160px;
+	margin-right: 40px;
+}
+
+#logo {
+	width: 55px;
+	height: 55px;
+	background-color: #29BDCA;
+	font: bold 38px arial;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+#name {
+	margin-left: 20px;
+	font: 38px arial;	
+}
+
+#topNav ul {	
+	list-style: none;
+	display: flex;
+	font: 14px arial;
+}
+
+#topNav li {
+	margin-left:20px;
+}
+
+#topNav a{
+	color: #808080;
+}
+
+#topNav a:hover{
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
 }
