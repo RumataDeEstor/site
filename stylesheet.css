@@ -30,11 +30,11 @@ header {
 	justify-content: center;
 	font-size: 18px;
 	color: #808080;	
+	transition: 0.5s;
 }
 
 .topBtn:hover {
 	background-color: #29BDCA;
-	transition: 0.5s;
 }
 
 #mail {
