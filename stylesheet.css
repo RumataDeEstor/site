@@ -34,6 +34,7 @@ header {
 
 .topBtn:hover {
 	background-color: #29BDCA;
+	transition: 0.5s;
 }
 
 #mail {
